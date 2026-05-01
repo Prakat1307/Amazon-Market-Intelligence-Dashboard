@@ -1,0 +1,43 @@
+# Node
+node_modules
+dist
+dist-ssr
+*.local
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+bin/
+lib/
+include/
+setuptools*.zip
+pip-log.txt
+pip-delete-this-directory.txt
+.venv
+venv
+ENV
+venv.bak
+.env
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+.fleet
+.nova
+*.swp
+*.swo
+
+# Data
+dataset.json
+node_modules
