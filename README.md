@@ -33,15 +33,15 @@ graph TD
 ## 📸 Project Screenshots
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x450.png?text=Dashboard+Overview" width="400" alt="Dashboard Overview" />
-  <img src="https://via.placeholder.com/800x450.png?text=Brand+Comparison" width="400" alt="Brand Comparison" />
+  <img src="assets/overview.png" width="400" alt="Dashboard Overview" />
+  <img src="assets/comparison.png" width="400" alt="Brand Comparison" />
 </p>
 <p align="center">
-  <img src="https://via.placeholder.com/800x450.png?text=Product+Drilldown" width="400" alt="Product Drilldown" />
-  <img src="https://via.placeholder.com/800x450.png?text=Agent+Insights" width="400" alt="Agent Insights" />
+  <img src="assets/products.png" width="400" alt="Product Drilldown" />
+  <img src="assets/insights.png" width="400" alt="Agent Insights" />
 </p>
 <p align="center">
-  <img src="https://via.placeholder.com/800x450.png?text=Value+Analysis" width="400" alt="Value Analysis" />
+  <img src="assets/value.png" width="400" alt="Value Analysis" />
 </p>
 
 ## Overview
