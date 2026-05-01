@@ -30,6 +30,20 @@ graph TD
     Insights --> API
 ```
 
+## 📸 Project Screenshots
+
+<p align="center">
+  <img src="https://via.placeholder.com/800x450.png?text=Dashboard+Overview" width="400" alt="Dashboard Overview" />
+  <img src="https://via.placeholder.com/800x450.png?text=Brand+Comparison" width="400" alt="Brand Comparison" />
+</p>
+<p align="center">
+  <img src="https://via.placeholder.com/800x450.png?text=Product+Drilldown" width="400" alt="Product Drilldown" />
+  <img src="https://via.placeholder.com/800x450.png?text=Agent+Insights" width="400" alt="Agent Insights" />
+</p>
+<p align="center">
+  <img src="https://via.placeholder.com/800x450.png?text=Value+Analysis" width="400" alt="Value Analysis" />
+</p>
+
 ## Overview
 
 LuggageIQ is an interactive competitive intelligence dashboard that analyzes customer reviews, pricing data, and market positioning for luggage brands selling on Amazon India. It transforms raw marketplace data into decision-ready insights for brand managers, product teams, and competitive strategists.
