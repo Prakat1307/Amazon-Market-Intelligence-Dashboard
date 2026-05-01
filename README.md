@@ -1,5 +1,35 @@
 # LuggageIQ — Amazon India Competitive Intelligence Dashboard
 
+An end-to-end competitive intelligence platform for the Indian luggage market. This project transforms messy marketplace signals from Amazon India into structured, decision-ready insights using a modern full-stack architecture.
+
+## 🏗️ Project Architecture
+
+```mermaid
+graph TD
+    subgraph "Frontend (React + Vite)"
+        UI[Dashboard UI]
+        State[React State Management]
+        Viz[Recharts Visualizations]
+    end
+
+    subgraph "Backend (FastAPI)"
+        API[FastAPI REST Endpoints]
+        Scraper[Amazon Scraper/Generator]
+        Insights[Agentic Insights Engine]
+    end
+
+    subgraph "Data Pipeline"
+        Amazon[Amazon India Listings]
+        Dataset[dataset.json]
+    end
+
+    UI <--> API
+    API --> Scraper
+    Scraper -- Scrape/Generate --> Dataset
+    Dataset --> Insights
+    Insights --> API
+```
+
 ## Overview
 
 LuggageIQ is an interactive competitive intelligence dashboard that analyzes customer reviews, pricing data, and market positioning for luggage brands selling on Amazon India. It transforms raw marketplace data into decision-ready insights for brand managers, product teams, and competitive strategists.
@@ -11,7 +41,7 @@ To build and run the entire application using Docker Compose:
 ```bash
 docker-compose up --build
 ```
-The dashboard will be available at `http://localhost:3000` and the API backend at `http://localhost:8000`.
+The dashboard will be available at `http://localhost:3005` (mapped from 3000) and the API backend at `http://localhost:8000`.
 
 ## Architecture & Setup
 
