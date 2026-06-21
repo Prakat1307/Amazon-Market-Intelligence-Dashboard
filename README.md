@@ -55,7 +55,7 @@ To build and run the entire application using Docker Compose:
 ```bash
 docker-compose up --build
 ```
-The dashboard will be available at `http://localhost:3005` (mapped from 3000) and the API backend at `http://localhost:8000`.
+The dashboard will be available at `http://localhost:3005` (mapped from 3000) and the API backend at `http://localhost:8000` .
 
 ## Architecture & Setup
 
@@ -114,7 +114,7 @@ npm run dev
 ### 3. Product Drilldown
 - Filterable and searchable product grid
 - Sort by sentiment, rating, price, discount, or reviews
-- Click any product for detailed modal with:
+- Click any product for detailed modal with :
   - Full pricing breakdown
   - Sentiment score with visual indicator
   - Review synthesis summary
