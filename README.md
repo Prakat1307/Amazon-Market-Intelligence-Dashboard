@@ -46,7 +46,7 @@ graph TD
 
 ## Overview
 
-LuggageIQ is an interactive competitive intelligence dashboard that analyzes customer reviews, pricing data, and market positioning for luggage brands selling on Amazon India. It transforms raw marketplace data into decision-ready insights for brand managers, product teams, and competitive strategists.
+LuggageIQ is an interactive competitive intelligence dashboard that analyzes customer reviews, pricing data, and market positioning for luggage brands selling on Amazon India. It transforms raw marketplace data into decision-ready insights for brand managers, product teams and competitive strategists.
 
 ## Quick Start (Docker)
 
