@@ -73,7 +73,7 @@ pip install -r requirements.txt
 python scraper.py # Generates the initial dataset
 uvicorn main:app --reload --port 8000
 ```
-*Note: The scraper falls back to an advanced synthetic generator if Amazon IP blocks occur to ensure assignment constraints are met.*
+*Note: The scraper falls back to an advanced synthetic generator if Amazon IP blocks occur to ensure assignment constraints are met .*
 
 **2. Start the Frontend:**
 ```bash
